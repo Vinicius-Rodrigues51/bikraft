@@ -1,7 +1,7 @@
 @import "./global/global.css";
 @import "./global/header.css";
-@import "./global/mediaQuerys.css";
 @import "./home/introducao.css";
 @import "./ultilidades/componentes.css";
 @import "./ultilidades/tipografia.css";
-@import "./ultilidades/cores.css"
+@import "./ultilidades/cores.css";
+@import "./bicicletas/bicicletas-lista.css";
