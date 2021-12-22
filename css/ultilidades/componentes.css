@@ -18,11 +18,17 @@
     line-height: 1.33;
     font-family: 'Poppins';
     font-weight: 600;
+    max-width: max-content;
 }
 
 .botao:hover {
     position: relative;
     top: 5px;
+}
+
+.botao.secundario {
+    background: var(--cor-10);
+    color: var(--cor-2);
 }
 
 .link {
