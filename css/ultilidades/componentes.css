@@ -85,6 +85,10 @@
     margin-bottom: 4px;
 }
 
+.titulo {
+    background: url('../../Assets/dec/top-right.svg') no-repeat top right 20px;
+}
+
 @media (max-width: 800px) {
     .botao {
         padding: 12px 16px;
