@@ -1,6 +1,7 @@
 .menu-mobile {
     padding: 15px;
     cursor: pointer;
+    display: none;
 }
 
 .menu-hamb {
@@ -77,5 +78,9 @@
         justify-content: space-around;
         align-content: flex-start;
         opacity: 1;
+    }
+
+    .menu-mobile {
+        display: block;
     }
 }
