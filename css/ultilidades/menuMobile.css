@@ -68,7 +68,7 @@
 
     .header-menu.ativo {
         background: var(--cor-11);
-        position: fixed;
+        position: absolute;
         top: 74px;
         right: 0px;
         width: 80%;
