@@ -61,7 +61,7 @@
     display: inline-block;
     width: 13px;
     height: 9px;
-    background-image: url(../../Assets/icones/lista.svg);
+    background-image: url('../../Assets/icones/lista.svg');
     position: absolute;
     left: -21px;
 }
