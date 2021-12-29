@@ -63,7 +63,17 @@
     transform: rotate(180deg);
 }
 
-.perguntas dd.ativo {
+.perguntas dd {
+    padding-left: 20px;
+    padding-top: 20px;
+    max-width: 100ch;
+}
+
+.js .perguntas dd {
+    display: none;
+}
+
+.js .perguntas dd.ativo {
     display: block;
     animation: smoothAnimation .4s forwards;
 }
@@ -78,13 +88,6 @@
         transform: translate3d(0, 0, 0);
         opacity: 1;
     }
-}
-
-.perguntas dd {
-    padding-left: 20px;
-    padding-top: 20px;
-    max-width: 100ch;
-    display: none;
 }
 
 @media (max-width: 800px) {
