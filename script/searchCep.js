@@ -32,7 +32,7 @@ async function addInfo(event) {
                     item.value = ''
                     erro1.innerText = 'Esse CEP não foi encontrado'
                     cep.classList.add('ativo')
-                    item.removeAttribute('disabled', 'disabled')
+                    // item.removeAttribute('disabled', 'disabled')
                 }
             })
             
