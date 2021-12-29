@@ -8,7 +8,7 @@
     <meta name="description" content="Termos e condições">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <link rel="preload" href="css/style.css" as="style">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -46,7 +46,7 @@
         </div>
         <!--titulo bg-->
 
-        <form class="orcamento container" action="./">
+        <form name="contact" netlify class="orcamento container" action="./">
             <div class="orcamento-produto">
                 <h2 class="font-1-xs cor-5">BIkcraft ou Seguro</h2>
 
@@ -169,7 +169,7 @@
                     <input id="termos" type="checkbox">
                     <label for="termos">Li e aceito os <a href="termos.html" class="cor-9">termos e condições</a></label>
                 </div>
-                <button class="botao col-2">Solicitar orçamento</button>
+                <input type="submit" class="botao col-2" value="Solicitar orçamento"></input>
             </div>
         </form>
     </main>
