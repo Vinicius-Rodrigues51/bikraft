@@ -36,11 +36,11 @@ async function addInfo(event) {
                 }
             })
             
-            inputs2.forEach( item => {
-                if(item.value != '') {
-                    item.setAttribute('disabled', 'disabled')
-                }
-            })
+            // inputs2.forEach( item => {
+            //     if(item.value != '') {
+            //         item.setAttribute('disabled', 'disabled')
+            //     }
+            // })
     	}
 
     } catch (erro) {
